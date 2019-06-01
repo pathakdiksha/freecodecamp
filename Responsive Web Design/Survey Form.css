@@ -1,0 +1,40 @@
+body{
+	background-color: rgb(125, 190, 191);
+	font-family: monospace;
+	font-size: 20px;
+}
+
+#title{
+	text-align:center;
+	position:absolute;
+	top:20px;
+	left:900px;
+}
+
+#formbase{
+	background-color: white;
+	text-align:center;
+	position: absolute;
+	top:80px;
+	left: 500px;
+	width: 50%;
+	padding: 20px;
+
+}
+
+label{
+
+}
+#survey-form{
+	
+	padding:20px;
+    text-align: justify;
+}
+
+#submit{
+	width: 80px;
+	padding: 10px;
+	background-color: rgb(33, 187, 240);
+	border-radius: 10%;
+	align-content: center;
+}
