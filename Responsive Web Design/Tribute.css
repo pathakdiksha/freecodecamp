@@ -1,0 +1,52 @@
+body{
+	background-color: #DCDCDC;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#title{
+	display: absolute;
+	top:20px;
+	text-align: center;
+	
+}
+
+#img-div{
+	position: absoulte;
+	margin:5px;
+	margin-right:5px;
+	background-color: white;
+	width: 100%;
+}
+
+#img-caption{
+	margin: 10px;
+	padding:10px;
+}
+
+#tribute-info{
+	position: absolute;
+	left: 33.33%;
+	right: 33.33%;
+	width: 33.33%
+	margin:100px;
+
+}
+
+ul li{
+	padding:10px;
+	text-align: justify;
+}
+
+.last{
+	text-align: justify;
+}
+
+.lastt{
+	width: 1000px;
+	text-align: center;
+	position: absolute;
+	left: -200px;
+	margin: 20px;
+	
+}
