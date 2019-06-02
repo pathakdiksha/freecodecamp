@@ -1,0 +1,25 @@
+.sidenav{
+position:fixed;
+left:0px;
+width:15%;
+margin-right:5px;
+border-right: solid black;
+}
+
+.documentation{
+	position: absolute;
+	left:40%;
+
+}
+
+ul li{
+	list-style-type: none;
+}
+
+#addstyledisc{
+	list-style-type: disc;
+}
+
+#addstylecircle{
+	list-style-type: circle;
+}
