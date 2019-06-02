@@ -11,14 +11,24 @@
   <p id="description">Let us know how we can improve freeCodeCamp</p>
 
   <form id="survey-form">
-  	<label id="name-label">Name: </label>
+  	<div class="rowtab">
+    <div class="labelt"><label id="name-label">*Name: </label></div>
+    <div class="inputy">
   	<input type="text" name="name" placeholder="Name" required=""><br>
-  	<label id="email-label">Email: </label>
-  	<input type="email" name="email" placeholder="Email" required=""><br>
-  	<label id="number-label">Age: </label>
-  	<input type="number" name="number" min="0" max="100" step="1" value="" placeholder="Age" required=""><br>
+  </div>
+  </div>
+  	<div class="rowtab">
+  		<div class="labelt"><label id="email-label">*Email: </label></div>
+  	<div class="inputy"><input type="email" name="email" placeholder="Email" required=""><br></div>
+  </div>
+  	<div class="rowtab">
+  		<div class="labelt"><label id="number-label">*Age: </label></div>
+  	<div class="inputy"><input type="number" name="number" min="0" max="100" step="1" value="" placeholder="Age" required=""><br></div>
+  </div>
   	
-  	<label id="dropdown">Which option best describes your current role?</label>
+  	<div class="rowtab">
+  		<div class="labelt"><label id="dropdown">Which option best describes your current role?</label></div>
+  		<div class="inputy">
   	<select name="role" id="dropdown">
   	<option value="" disabled="">Select an option</option>
     <option value="student">Student</option>
@@ -27,24 +37,33 @@
     <option value="nottosay">Prefer not to say</option>
     <option value="other">Other</option>
    </select><br>
-  
-  <label id="recommend">How likely is that you would recommend freeCodeCamp to a friend?</label>  
+</div>
+  </div>
+
+  <div class="rowtab">
+  <div class="labelt"><label id="recommend">*How likely is that you would recommend freeCodeCamp to a friend?</label>  </div>
+  <div class="inputy">
   <input type="radio" name="recommend" value="Definitely"> Definitely<br>
   <input type="radio" name="recommend" value="Maybe"> Maybe<br>
   <input type="radio" name="recommend" value="Not Sure"> Not Sure<br>
+</div>
+</div>
 
-<label id="FCC">What do you like most in FCC:</label>
-  <select name="FCC" id="dropdown">
+<div class="rowtab">
+<div class="labelt"><label id="FCC">What do you like most in FCC:</label></div>
+  <div class="inputy"><select name="FCC" id="dropdown">
   	<option value="" disabled="" selected="">Select an option</option>
     <option value="student">Challanges</option>
     <option value="ftjob">Projects</option>
     <option value="ftlearner">Community</option>
     <option value="nottosay">Open Source</option>
-   </select><br>
+   </select><br></div>
+</div>
 
-<pre><label id="things">Things that should be improved in the future
-(Check all that apply):</label></pre>
-    <input type="checkbox" name="things" value="Front-end Projects"> Front-end Projects<br>
+<div class="rowtab">
+<div class="labelt"><label id="things">Things that should be improved in the future
+(Check all that apply):</label></div>
+   <div class="inputy"> <input type="checkbox" name="things" value="Front-end Projects"> Front-end Projects<br>
   <input type="checkbox" name="things" value="Back-end Projects"> Back-end Projects<br>
   <input type="checkbox" name="things" value="Data Visualization"> Data Visualization<br>
   <input type="checkbox" name="things" value="Challenges"> Challenges<br>
@@ -53,11 +72,17 @@
   <input type="checkbox" name="things" value="Wiki"> Wiki<br>
   <input type="checkbox" name="things" value="Forum"> Forum<br>
   <input type="checkbox" name="things" value="Additional Courses"> Additional Courses<br>
+</div>
+<div>
 
-<label id="message">Any Comments or Suggestions?</label>
-<textarea name="message" rows="3" cols="30" placeholder="Enter Your comment here..."></textarea><br>
+	<div class="rowtab">
+<div class="labelt"><label id="message">Any Comments or Suggestions?</label></div>
+<div class="inputy"><textarea name="message" rows="3" cols="30" placeholder="Enter Your comment here..."></textarea><br></div>
   <br>
+</div>
+<div class="subb">
   <input id="submit" type="submit" value="Submit">
+</div>
 
   </form>
 
