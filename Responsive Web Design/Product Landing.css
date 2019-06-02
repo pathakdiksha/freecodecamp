@@ -1,0 +1,19 @@
+body{
+	background-color: rgb(229, 233, 234);
+}
+
+nav{
+	display:inline;
+}
+
+ul li{
+	display: inline;
+	list-style-type: none;
+}
+
+.container{
+	display:grid;
+	grid-template-columns: 250px 250px 250px;
+	grid-template-rows: 30px 20px 80px 35px;
+	grid-column-gap: 30px 30px;
+}
