@@ -1,15 +1,44 @@
+body{
+	font-family: "Open Sans", Arial, sans-serif;
+}
+
 .sidenav{
 position:fixed;
 left:0px;
 width:15%;
+height: 100%;
 margin-right:5px;
-border-right: solid black;
+border-right: solid grey;
 }
 
 .documentation{
 	position: absolute;
-	left:40%;
+	left:20%;
 
+}
+a{
+text-decoration: none;
+font-style: none;
+color: grey;
+}
+
+.navlink{
+	position: fixed;
+	top:80px;
+	margin-left: 0;
+	left: 0;
+	
+}
+
+
+
+li a{
+	
+	display: block;
+	padding:10px;
+	left: 0;
+	margin-left:0;
+	border-top: 1px solid grey;
 }
 
 ul li{
@@ -18,8 +47,27 @@ ul li{
 
 #addstyledisc{
 	list-style-type: disc;
+	
 }
 
 #addstylecircle{
 	list-style-type: circle;
+
 }
+
+#wordspace{
+color: #585656;
+word-spacing: 3px;
+line-height: 1.5;
+}
+
+#me{
+	background-color: #EEEBEB;
+
+}
+
+#bll{
+	color: blue;
+	text-decoration: underline;
+}
+
