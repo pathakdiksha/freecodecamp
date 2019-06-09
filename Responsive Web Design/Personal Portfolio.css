@@ -1,0 +1,26 @@
+body{
+	padding:0;
+	margin:0;
+	background-color: #E0F4F1;
+}
+
+#1{
+	
+}
+
+#setcenter{
+	position: absolute;
+	top:40%;
+	left:40%;
+	width:100%;
+	height: 100%;
+}
+
+#2{
+	position: absolute;
+	top:150%;
+	left:40%;
+	width:100%;
+	height: 80%;
+	
+}
